@@ -2,7 +2,7 @@
     "name":"Swasthya",
     "version": "0.1",
     "description": "Digital wellbeing",
-    "permissions":["storage","tab"],
+    "permissions":["storage","tabs"],
     "host_permissions":["<all_urls>"],
     "background":{
         "service_worker": "background.js"
@@ -32,6 +32,9 @@
         },
         "default_title": "Swasthya",
         "default_popup": "popup.html"
+    },
+    "content_security_policy": {
+        "extension_pages": "script-src 'self'; object-src 'self'; img-src 'self' data:"
     },
     "manifest_version":3
 }
