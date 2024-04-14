@@ -24,17 +24,14 @@
             "matches": ["<all_urls>"]
         }
     ],
-    "action":{
-        "default_icon":{
+    "action": {
+        "default_icon": {
             "16": "assets/ext-icon.png",
             "24": "assets/ext-icon.png",
             "32": "assets/ext-icon.png"
         },
         "default_title": "Swasthya",
         "default_popup": "popup.html"
-    },
-    "content_security_policy": {
-        "extension_pages": "script-src 'self'; object-src 'self'; img-src 'self' data:"
     },
     "manifest_version":3
 }

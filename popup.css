@@ -12,7 +12,7 @@ h1 {
 #timeDisplay div {
     display: flex;
     align-items: center;
-    margin-top: 5px;
+    margin-top: 10px;
 }
 
 #timeDisplay img {
